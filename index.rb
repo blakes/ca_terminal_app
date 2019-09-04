@@ -36,7 +36,6 @@
       puts "Aborted Trivia Quiz.".colorize(:red)
       abort
     end
-
     def load_questions(arrs)
       puts "Please type 1 for true answer or type 0 for false answer. type x to exit\n"
           puts "\n"
@@ -57,7 +56,7 @@
             else 
               puts "Invailid Reponse".colorize(:red)
           end
-          end
+        end
           puts "you got #{score} out of #{arr.length()} \n"
           puts "End of Trivia Quiz. Thanks for Playing"
           quiz_screen
