@@ -20,8 +20,14 @@ Its a simple, intriguing, challenging application **(Trivia Quiz)** that display
 ## Help  File
 ​
 Dependencies used are:
+- colorize - Ruby string class extension. It add some methods to set 
+- json - Implementation of the JSON specification to read or write json files
+
+ ### **Installation**
+
+
+#### Editing  the  file  in  your  own  IDE
 
 ​
 
-- colorize - Ruby string class extension. It add some methods to set 
-- json - Implementation of the JSON specification to read or write json files
+If you're playing around with the file within your own IDE, simply run `code index.rb/class_trivia.rb`in the terminal to execute and run or open manually with your preferred text editor
