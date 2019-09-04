@@ -1,3 +1,4 @@
+
 # Welcome 
 
 **Trivia Quiz in the CMD** is my first CLI written in ruby and is to be assessed as our first ruby assignment for the [Coder  Academy](https://coderacademy.edu.au/) FastTrack Bootcamp.
@@ -44,7 +45,7 @@ The main menu will give you 3 options:
 
 3) Calculate score at the end of the quiz, allow the user to play again or exit the application, allow user to play again after the quiz
 
-##### **How  do  I  use  it?**
+#### **How  do  I  use  it?**
 
 ​You will be greeted by a welcome screen which ask do you to play the trivia quiz with either Y for yes which prepare the quiz, they answer 1 for true or 0 for false which then display reason if they answer is right or wrong, when you have finish all the questions of the quiz will be provided with your quiz score count, and a option to play again if the user wishes.
 
