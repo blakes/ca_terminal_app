@@ -6,7 +6,7 @@
       puts "Hello, welcome to Trivia Quiz."
   end
     def quiz_screen
-      puts "Are you ready to play? -.- (Y/N)\n".colorize(:blue)
+      puts "Are you ready to play? -.- (Y/N)".colorize(:blue)
       input = gets.chomp
       cmd = input.upcase
        case cmd
