@@ -44,18 +44,32 @@
      for arr in arrs
           puts arr['question'].colorize(:light_blue)
           answer = gets.chomp()
-          if answer == arr['answer_bool']
-               score += 1
-               puts "Correct Answer! \n".colorize(:green)
-               puts arr['answer_body'].colorize(:black)
-               puts "\n"
-             elsif answer != arr['answer_bool']
-              puts "Wrong Answer!".colorize(:red)
-               puts arr['answer_body'].colorize(:black)
-               puts "\n"
-            else 
-              puts "Invailid Reponse".colorize(:red)
+
+          if answer != "1" and answer != "0"
+            puts "Invailid Reponse".colorize(:red)
+          elsif answer == arr['answer_bool']
+            score += 1
+            puts "Correct Answer! \n".colorize(:green)
+            puts arr['answer_body'].colorize(:black)
+            puts "\n"
+          else
+            puts "Wrong Answer!".colorize(:red)
+            puts arr['answer_body'].colorize(:black)
+            puts "\n"
           end
+
+          # if answer == arr['answer_bool']
+          #      score += 1
+          #      puts "Correct Answer! \n".colorize(:green)
+          #      puts arr['answer_body'].colorize(:black)
+          #      puts "\n"
+          #    elsif answer != arr['answer_bool']
+          #     puts "Wrong Answer!".colorize(:red)
+          #      puts arr['answer_body'].colorize(:black)
+          #      puts "\n"
+          #   else 
+          #     puts "Invailid Reponse".colorize(:red)
+          # end
         end
           puts "you got #{score} out of #{arr.length()} \n"
           puts "End of Trivia Quiz. Thanks for Playing"
