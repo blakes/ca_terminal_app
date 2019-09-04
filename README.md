@@ -1,4 +1,3 @@
-
 # Welcome 
 
 **Trivia Quiz in the CMD** is my first CLI written in ruby and is to be assessed as our first ruby assignment for the [Coder  Academy](https://coderacademy.edu.au/) FastTrack Bootcamp.
@@ -45,24 +44,6 @@ The main menu will give you 3 options:
 
 3) Calculate score at the end of the quiz, allow the user to play again or exit the application, allow user to play again after the quiz
 
-​
-
-##### **1)  **
-
-​
-
-Find out your star sign by using your birth date!
-
-​
-
-##### **How  do  I  use  it?**
-
-​
-
-Enter your birth date (using numbers only) and your birth month.
-
-This will give the program enough information to make a calculation and display your star sign.
-
 ##### **How  do  I  use  it?**
 
 ​You will be greeted by a welcome screen which ask do you to play the trivia quiz with either Y for yes which prepare the quiz, they answer 1 for true or 0 for false which then display reason if they answer is right or wrong, when you have finish all the questions of the quiz will be provided with your quiz score count, and a option to play again if the user wishes.
@@ -72,4 +53,20 @@ This will give the program enough information to make a calculation and display 
 Operating System - Windows 95 or later, Mac OS X 10 or later, or Linux
 Processor Speed - Pentium 4, 3.2 GHz or Power PC G5, 2.0 GHz
 Memory - At least 512Mb
-Hard Disk Space - At least 1GB
+Hard Disk Space - At least 1GB​
+
+## Software  Development  Plan
+
+​
+
+Can be read [Here](https://github.com/blakes/ca_terminal_app/blob/master/software_development_plan.md)
+
+## License
+
+​
+
+[![License](https://camo.githubusercontent.com/107590fac8cbd65071396bb4d04040f76cde5bde/687474703a2f2f696d672e736869656c64732e696f2f3a6c6963656e73652d6d69742d626c75652e7376673f7374796c653d666c61742d737175617265)](http://badges.mit-license.org/)
+
+​
+
+- **MIT  license**
