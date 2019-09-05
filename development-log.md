@@ -6,4 +6,4 @@ I was trying to figure out the logic on how i'm going to implement each class an
 
 ## 2
 
-Covert my index.rb methods/vars/data to Classes in the class_Trivia.rb from methods. Fine tuning the input of answer other than the defined answers true = 1 or false = 0 to provide a better clearer user experience
+thinking to covert my index.rb methods/vars/data to Classes in the class_Trivia.rb from methods. Fine tuning the input of answer other than the defined answers true = 1 or false = 0 to provide a better clearer user experience, I decided to keep the method pattern in place because the marking criteria does require classes to be added.
