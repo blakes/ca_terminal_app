@@ -27,9 +27,14 @@
     end
 
     def load_file
-    f = File.open("trivia.json","r")
-    return JSON.parse(f.read())
-    f.close()
+      begin
+        f = File.open("trivia.json","r")
+          return JSON.parse(f.read())
+          rescue
+            puts "Json File Not Found. Reload the Application."
+        ensure
+            f.close()
+        end
     end
 
     def close_quiz
@@ -71,7 +76,7 @@
           #     puts "Invailid Reponse".colorize(:red)
           # end
         end
-          puts "you got #{score} out of #{arr.length()} \n"
+          puts "you got #{score} out of #{arrs.length()} \n"
           puts "End of Trivia Quiz. Thanks for Playing"
           quiz_screen
      end
