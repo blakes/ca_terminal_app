@@ -1,7 +1,11 @@
 
 	require 'json'
   require 'colorize'
-  
+if !ARGV.empty?
+if ARGV[0] == 'credit'
+puts "Credit: Created by Blake Symington, Coder Academy - Fast-Track Bootcamp 2019"
+end
+else
   def welcome
       puts "Hello, welcome to Trivia Quiz."
   end
@@ -62,23 +66,10 @@
             puts arr['answer_body'].colorize(:black)
             puts "\n"
           end
-
-          # if answer == arr['answer_bool']
-          #      score += 1
-          #      puts "Correct Answer! \n".colorize(:green)
-          #      puts arr['answer_body'].colorize(:black)
-          #      puts "\n"
-          #    elsif answer != arr['answer_bool']
-          #     puts "Wrong Answer!".colorize(:red)
-          #      puts arr['answer_body'].colorize(:black)
-          #      puts "\n"
-          #   else 
-          #     puts "Invailid Reponse".colorize(:red)
-          # end
-        end
           puts "you got #{score} out of #{arrs.length()} \n"
           puts "End of Trivia Quiz. Thanks for Playing"
           quiz_screen
      end
     welcome
     quiz_screen
+  end
